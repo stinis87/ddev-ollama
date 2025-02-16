@@ -13,3 +13,6 @@ services:
     - ".:/mnt/ddev_config"
     - "ddev-global-cache:/mnt/ddev-global-cache"
     - "ollama-model-data:/mnt/ollama-model-data/data"
+
+volumes:
+  ollama-model-data:
