@@ -1,24 +1,4 @@
 name: ollama
+
 project_files:
   - docker-compose.ollama.yaml
-
-# DDEV environment variables can be interpolated into these actions.
-# post_install_actions are executed in the context of the target project's .ddev directory.
-post_install_actions:
-  # - chmod +x ~/.ddev/commands/web/somecommand
-  # - touch ${DDEV_APPROOT}/somefile.${GOOS}.${DDEV_WEBSERVER}
-  # - perl -pi -e 's/oldstring/newstring/g' ${DDEV_APPROOT}/.ddev/docker-compose.ollama.yaml
-
-# Shell actions that can be done during removal of the add-on.
-# Files listed in project_files section will be automatically removed here if they contain #ddev-generated line.
-# removal_actions are executed in the context of the target project's .ddev directory.
-removal_actions:
-  # - rm ~/.ddev/commands/web/somecommand
-  # - |
-  #   if [ -f ${DDEV_APPROOT}/.ddev/docker-compose.ollama.yaml ]; then
-  #     if grep -q '#ddev-generated' ${DDEV_APPROOT}/.ddev/docker-compose.ollama.yaml; then
-  #       rm -f ${DDEV_APPROOT}/.ddev/docker-compose.ollama.yaml
-  #     else
-  #       echo "Unwilling to remove '${DDEV_APPROOT}/.ddev/docker-compose.ollama.yaml' because it does not have #ddev-generated in it; you can manually delete it if it is safe to delete."
-  #     fi
-  #   fi

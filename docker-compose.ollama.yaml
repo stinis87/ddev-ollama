@@ -1,8 +1,8 @@
+#ddev-generated
 services:
-  addon-template:
+  ollama:
     container_name: ddev-${DDEV_SITENAME}-ollama
     image: ollama/ollama:latest
-    command: tail -f /dev/null
     restart: "no"
     # These labels ensure this service is discoverable by ddev.
     labels:
@@ -12,3 +12,4 @@ services:
     volumes:
     - ".:/mnt/ddev_config"
     - "ddev-global-cache:/mnt/ddev-global-cache"
+    - "ollama-model-data:/mnt/ollama-model-data/data"
