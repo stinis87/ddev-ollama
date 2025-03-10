@@ -1,3 +1,5 @@
+Makes it possible to run Ollama in ddev.
+
 ## Getting started
 
 1. Install the Ollama ddev add-on and restart:
