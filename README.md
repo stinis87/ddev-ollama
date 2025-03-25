@@ -27,12 +27,10 @@ You can install the **DDEV Ollama Add-on** with a single command:
 
 ```bash
 ddev get stinis87/ddev-ollama && ddev restart
-
-Ollama is now running on hostname: http://ollama, port: 11434
-
+```
 ---
 
-## Installation
+## Usage
 
 **Access the Ollama service:**
 
