@@ -34,11 +34,11 @@ Ollama is now running on hostname: http://ollama, port: 11434
 
 ## Installation
 
-Access the Ollama service:
+**Access the Ollama service:**
 
 ddev ssh -s ollama
 
-Install and run a model:
+**Install and run a model:**
 
 For example, to run the llama3.2:3b model:
 
