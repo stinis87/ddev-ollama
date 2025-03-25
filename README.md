@@ -1,8 +1,8 @@
 # DDEV Ollama Add-on
 
-The **DDEV Ollama Add-on** allows you to integrate [Ollama](https://ollama.com/), a powerful AI model runner, into your [DDEV](https://ddev.readthedocs.io/en/stable/) development environment. This add-on makes it easy to deploy and run large language models locally, without the need for cloud-based services.  
+The **DDEV Ollama Add-on** allows you to integrate [Ollama](https://ollama.com/), a powerful AI model runner, into your [DDEV](https://ddev.readthedocs.io/en/stable/) development environment. This add-on makes it easy to deploy and run language models locally, without the need for cloud-based services.  
 
-With this integration, developers working with DDEV can leverage AI models like **Llama 3**, **Mistral**, and others directly from their local machine. This is particularly useful for web developers, AI researchers, and data scientists who want to use large language models in their projects.
+With this integration, developers working with DDEV can leverage AI models like **Llama 3**, **Mistral**, and others directly from their local machine. This is particularly useful for web developers who want to use large language models in their projects.
 
 ## 🚀 Features
 
