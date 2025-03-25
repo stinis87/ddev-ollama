@@ -1,20 +1,32 @@
-Makes it possible to run Ollama in ddev.
+# DDEV Ollama Add-on
 
-## Getting started
+The **DDEV Ollama Add-on** allows you to integrate [Ollama](https://ollama.com/), a powerful AI model runner, into your [DDEV](https://ddev.readthedocs.io/en/stable/) development environment. This add-on makes it easy to deploy and run large language models locally, without the need for cloud-based services.  
 
-1. Install the Ollama ddev add-on and restart:
+With this integration, developers working with DDEV can leverage AI models like **Llama 3**, **Mistral**, and others directly from their local machine. This is particularly useful for web developers, AI researchers, and data scientists who want to use large language models in their projects.
 
-    ```shell
-    ddev add-on get stinis87/ddev-ollama && ddev restart
-    ```
-2. Access Ollama service:
+## 🚀 Features
 
-    ```shell
-    ddev ssh -s ollama
-    ```
-3. Install and run a model. Example showcases llama but you can find the different models on https://ollama.com/search:
+- **Seamless integration**: Easily install and configure Ollama within your existing DDEV setup.
+- **Local AI model execution**: Run models like **Llama3**, **Mistral**, and more without relying on external services.
+- **Fast and lightweight**: Efficient model execution optimized for local development environments.
+- **Compatible with various use cases**: Whether you're working on **AI-powered chatbots, natural language processing (NLP), or code generation**, this add-on makes it easy to integrate AI models into your workflow.
+- **Customizable**: Configure your own AI models for specific use cases.
 
-    ```shell
-    ollama run llama3.2:3b
-    ```
-Ollama is now running on hostname: http://ollama, port: 11434
+---
+
+## 📌 Prerequisites
+
+Before installing the add-on, ensure you have:
+
+- [DDEV installed](https://ddev.readthedocs.io/en/stable/)
+- A working Docker setup (since DDEV relies on Docker)
+- Sufficient system resources for running AI models (depending on the complexity of the model)
+
+---
+
+## 🔧 Installation
+
+You can install the **DDEV Ollama Add-on** with a single command:
+
+```bash
+ddev get stinis87/ddev-ollama && ddev restart
