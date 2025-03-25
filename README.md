@@ -8,10 +8,7 @@ With this integration, developers working with DDEV can leverage AI models like 
 
 - **Seamless integration**: Easily install and configure Ollama within your existing DDEV setup.
 - **Local AI model execution**: Run models like **Llama3**, **Mistral**, and more without relying on external services.
-- **Fast and lightweight**: Efficient model execution optimized for local development environments.
-- **Compatible with various use cases**: Whether you're working on **AI-powered chatbots, natural language processing (NLP), or code generation**, this add-on makes it easy to integrate AI models into your workflow.
-- **Customizable**: Configure your own AI models for specific use cases.
-
+  
 ---
 
 ## 📌 Prerequisites
